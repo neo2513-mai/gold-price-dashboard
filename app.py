@@ -61,7 +61,7 @@ try:
             yaxis_title="Price (USD)",
             template="plotly_dark"  # เพิ่มเติม: ถ้าชอบธีมมืดให้ดูโปรขึ้น
         )
-        st.plotly_chart(fig_candle, width="stretch")
+        st.plotly_chart(fig_candle, width="stretch", theme=None)
 
     st.divider() # เส้นคั่นแบ่งส่วน
 
